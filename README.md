@@ -1,9 +1,9 @@
 # Laravel LiqPay
 A Laravel package for the LiqPay PHP SDK.
-
+Fork and change dependencies deniztezcan/laravel-liqpay
 ## Instalation
 ```
-composer require deniztezcan/laravel-liqpay
+composer require ocheretko/laravel-liqpay
 ```
 
 Add a ServiceProvider to your providers array in `config/app.php`:
