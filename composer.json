@@ -1,0 +1,46 @@
+{
+    "name": "ocheretko/laravel-liqpay",
+    "description": "LiqPay for Laravel",
+    "type": "library",
+    "license": "MIT",
+    "version": "1.0.0",
+    "homepage": "https://github.com/oocheretko/laravel-liqpay",
+    "authors": [
+        {
+            "name": "Deniz Tezcan",
+            "email": "howdy@deniztezcan.me"
+        },
+        {
+            "name": "Liqpay",
+            "email": "support@liqpay.ua",
+            "homepage": "https://www.liqpay.ua/",
+            "role": "Developer"
+        }
+    ],
+     "keywords": [
+        "liqpay",
+        "laravel"
+    ],
+    "autoload": {
+        "psr-4": { "DenizTezcan\\LiqPay\\" : "src/" }
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "illuminate/support": ">=5.4",
+        "nesbot/carbon": ">=2.16",
+        "guzzlehttp/guzzle": ">=7.0"
+    },
+    "extra": {
+      "laravel": {
+        "providers": [
+          "DenizTezcan\\LiqPay\\LiqPayServiceProvider"
+        ],
+        "aliases": {
+          "LiqPay": "DenizTezcan\\LiqPay\\Facades\\LiqPay"
+        }
+      }
+    },
+    "require-dev": {
+        "symfony/var-dumper": ">=6.0"
+    }
+}
