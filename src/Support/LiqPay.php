@@ -137,7 +137,7 @@ class LiqPay
      *
      * @throws InvalidArgumentException
      */
-    public function cnb_form(string $params): string
+    public function cnb_form(array $params): string
     {
         $language = 'ru';
         if (isset($params['language']) && $params['language'] === 'en') {
