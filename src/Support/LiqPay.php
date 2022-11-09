@@ -49,7 +49,7 @@ class LiqPay
     public function __construct(
         string $_checkout_url = 'https://www.liqpay.ua/api/3/checkout',
         string|NULL $_server_response_code = null,
-        $_supportedCurrencies = array(
+        array $_supportedCurrencies = array(
             self::CURRENCY_EUR,
             self::CURRENCY_USD,
             self::CURRENCY_UAH,
