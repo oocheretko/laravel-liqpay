@@ -4,6 +4,7 @@ namespace DenizTezcan\LiqPay;
 
 use DenizTezcan\LiqPay\Support\LiqPay as AbstractLiqPay;
 
+
 class LiqPay
 {
     protected $client = null;
